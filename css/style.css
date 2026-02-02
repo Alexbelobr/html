@@ -1,6 +1,6 @@
 :root {
     --color-primary-dark: #4e5f2e;
-    --color-primary-light: #faf4ea;
+    --color-primary-light: #8f764b;
     --color-brand: #819b57;
     --color-brand-dark: #638730;
 
@@ -9,14 +9,17 @@
 body {
     color: var(--color-primary-light);
     font-family: Poppins, sans-serif;
+    font-size: 18px;
 }
 ul {
     list-style-type: none;
 }
 /*Title*/
 .main-title {
-    
-    font-weight: 900;
+    color: var(--color-primary-light);
+    text-align: center;
+    text-transform: none;
+    font-size: 128px;
 }
 .main-title .accent {
     color: var(--color-primary-dark);
@@ -65,4 +68,14 @@ ul {
 .section-title .accent {
     color: var(--color-brand-dark);
     
+}
+
+/*Traditions section*/
+.tradicions-text .brand {
+    color: var(--color-brand);
+    text-transform: none;
+}
+
+.tradicions-text .brand.uppercase {
+    text-transform: uppercase;
 }
